@@ -1,0 +1,65 @@
+h1{
+    font-size:30px;
+    font-weight: bold;
+    text-align:center;
+    font: rgb(25, 25, 112);
+}
+h1:hover{
+    background-color: rgb(32, 32, 244);
+}
+h2,h3{
+    color:rgb(44, 58, 106);
+    font-size: 20px;
+    font-weight:bold;
+    font-style: italic;
+  }
+h2:hover{
+    color:rgb(94, 107, 25);
+}
+h3:hover{
+    color:rgb(104, 9, 47);
+}
+p,ol,ul{
+    font:rgb(104, 9, 47);
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+a[href="Resume_Rupanjali Saha.jpg"]:hover{
+    color:rgb(50, 205, 164);
+      font-weight: bold;
+}
+  a[href="https://github.com/saharupanjali"]:hover{
+    color:rgb(50, 205, 164);
+    font-weight: bold;
+}
+a[href="https://www.linkedin.com/in/rupanjali-saha-99b8181b2"]:hover{
+    background-color:rgb(50, 205, 164);
+    font-weight: bold;
+}
+h2#new{
+    color:rgb(128, 100, 36);
+    margin-left: 43%;
+}
+a:hover {
+text-decoration-style:none;
+color:sienna;
+}
+h2+h3{
+    background-color:cornflowerblue;
+}
+li[class~="a"]{
+    color:rgb(180, 17, 17);
+}
+ul li a{
+    list-style-type: circle;
+    font: rgb(100, 41, 130);
+}
+img{
+    margin-left: 35%;
+    border-radius: 40%;
+    border: 3px solid #8f8b43;
+    box-shadow: 3px;
+}
+*{
+    text-align: justify;
+}
